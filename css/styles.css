@@ -1,23 +1,24 @@
-*{
-    font-family: "Montserrat", sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
-  background: linear-gradient(135deg, #88BF5A 0%, #F7C74A 100%);
-  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #88bf5a 0%, #f7c74a 100%);
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-center {
-  min-height: 100vh; 
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .card {
-  box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.10);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   padding: 2.5rem 2rem;
 }
@@ -25,21 +26,22 @@ body, html {
 .form-group input {
   padding-left: 2.5rem;
   border-radius: 8px;
-  border: 1px solid #3D7DCA;
+  border: 1px solid #3d7dca;
   font-size: 1.1rem;
 }
 
 .btn-primary {
-  background-color: #3D7DCA !important;
+  background-color: #3d7dca !important;
   border-radius: 8px;
   font-weight: bold;
   font-size: 1.15rem;
   margin-top: 1.5rem;
 }
 
-.btn-primary:hover, .btn-primary:focus {
-  background-color: #003A70 !important;
-  border-color: #003A70 !important;
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #003a70 !important;
+  border-color: #003a70 !important;
 }
 
 @media (max-width: 768px) {

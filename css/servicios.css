@@ -1,0 +1,90 @@
+body, html {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #88BF5A 0%, #F7C74A 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.10);
+  border-radius: 26px;
+  border: none;
+  padding: 2.4rem 2rem;
+  background-color: #fff;
+}
+
+.welcome-text6 {
+  color: #3D7DCA;
+  font-weight: 700;
+  text-align: center;
+}
+
+label {
+  font-weight: 600;
+  color: #3D7DCA;
+}
+
+.form-group input,
+.form-group select {
+  border-radius: 12px;
+  border: 1px solid #d9e6f3;
+  padding: 0.7rem 1rem;
+  font-size: 1.08rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #88BF5A;
+  outline: none;
+  box-shadow: 0 0 0 2px #88BF5A33;
+}
+
+#servicio {
+  background-color: #f7f9ff;
+  height: 50px;
+}
+
+.btn-primary {
+  background-color: #3D7DCA !important;
+  border-color: #3D7DCA !important;
+  font-weight: 600;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #003A70 !important;
+  border-color: #003A70 !important;
+}
+
+.btn-secondary {
+  background-color: #5f6e75 !important;
+  border-color: #5f6e75 !important;
+  color: #fff !important;
+}
+
+.text-success {
+  color: #88BF5A !important;
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 98vw;
+    padding: 1.2rem;
+  }
+  .form-group input,
+  .form-group select {
+    font-size: 1rem;
+    padding: 0.6rem 0.7rem;
+    width: 100%;
+  }
+}

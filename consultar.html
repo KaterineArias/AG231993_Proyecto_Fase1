@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Pokémon Bank - Consultar saldo</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/consultar.css">
+</head>
+<body>
+  <main class="container main-center">
+    <div class="card p-5">
+      <div class="row align-items-center mb-4">
+        <div class="col text-center">
+          <img src="img/logo.png" style="width:180px;" alt="Pokémon Bank">
+        </div>
+      </div>
+      <h4 class="welcome-text5 mt-2 mb-4">Consulta de saldo</h4>
+      <div class="text-center mb-3">
+        <p class="mb-1">Usuario: <span id="cuenta-nombre">-</span></p>
+      </div>
+      <div class="saldo-box text-center my-4">
+        <h5>Saldo disponible</h5>
+        <span id="saldo-actual" class="display-4 font-weight-bold text-success">0</span>
+        <p class="text-muted mt-2">Monedas Pokémon</p>
+      </div>
+      <div class="d-flex justify-content-end mt-4">
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='home.html'">Volver</button>
+      </div>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>

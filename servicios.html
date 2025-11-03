@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Pokémon Bank - Pagar servicios</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/servicios.css">
+</head>
+<body>
+<main class="container main-center">
+  <div class="card p-5">
+    <div class="row align-items-center mb-4">
+      <div class="col text-center">
+        <img src="img/logo.png" style="width:180px;" alt="Pokémon Bank">
+      </div>
+    </div>
+    <h4 class="welcome-text6 text-center mb-4">Pago de servicios</h4>
+    <div class="text-center mb-2">
+      <p>Usuario: <span id="cuenta-nombre">-</span></p>
+      <p class="mb-0">Saldo disponible: <span id="saldo-actual" class="text-success font-weight-bold">0</span></p>
+    </div>
+
+    <form id="servicios-form" autocomplete="off">
+      <div class="form-group">
+        <label for="servicio">Selecciona un servicio:</label>
+        <select id="servicio" name="servicio" class="form-control" required>
+          <option value="">-- Selecciona --</option>
+          <option value="Energia eléctrica">Energía eléctrica</option>
+          <option value="Internet">Internet</option>
+          <option value="Telefonía">Telefonía</option>
+          <option value="Agua potable">Agua potable</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="referencia">Referencia del servicio:</label>
+        <input type="text" id="referencia" name="referencia" class="form-control" placeholder="Número de recibo o referencia" required>
+      </div>
+      <div class="form-group">
+        <label for="monto">Monto a pagar:</label>
+        <input type="number" id="monto" name="monto" min="1" class="form-control" placeholder="Ingrese monto en monedas Pokémon" required>
+      </div>
+      <div class="d-flex justify-content-between mt-4">
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='home.html'">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Pagar</button>
+      </div>
+    </form>
+  </div>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>

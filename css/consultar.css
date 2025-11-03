@@ -1,0 +1,73 @@
+body, html {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #88BF5A 0%, #F7C74A 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 95%;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.10);
+  border-radius: 26px;
+  border: none;
+  padding: 2.5rem 2rem;
+  background-color: #fff;
+}
+
+.welcome-text5 {
+  color: #3D7DCA;
+  font-weight: 700;
+  text-align: center;
+}
+
+.saldo-box {
+  background: #F7C74A15;
+  border-radius: 18px;
+  padding: 1rem 0.5rem;
+  margin-top: 1rem;
+  box-shadow: 0 0.16rem 0.5rem rgba(247,199,74,0.12);
+}
+
+.saldo-box h5 {
+  color: #3D7DCA;
+  font-weight: 600;
+}
+
+#saldo-actual {
+  color: #88BF5A;
+  font-size: 2.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.text-muted {
+  color: #999 !important;
+}
+
+p, span {
+  font-size: 1.11rem;
+}
+
+/* Responsive: */
+@media (max-width: 768px) {
+  .card {
+    max-width: 98vw;
+    padding: 1.2rem;
+  }
+  .saldo-box {
+    padding: 0.8rem 0.2rem;
+  }
+  #saldo-actual {
+    font-size: 2rem;
+  }
+}
