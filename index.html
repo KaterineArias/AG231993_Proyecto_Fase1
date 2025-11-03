@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pokémon Bank - Login</title>
+    <link rel="icon" type="image/jpg" href="img/favicon.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- AG231993 - Katerine Arias -->
+</head>
+<body>
+  <main class="container main-center">
+    <section class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card p-4">
+          <div class="row align-items-center">
+            <!-- Formulario de login -->
+            <section class="col-md-6">
+              <header>
+                    <h3 class="mb-3 text-center">¡Hola!</h3>
+                    <p class="text-center mb-4">Inicia sesión en tu cuenta</p>
+              </header>
+              <form>
+                  <div class="form-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Ingresa tu usuario" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="password">PIN</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Ingresa tu PIN" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+              </form>
+            </section>
+            <!-- Sección bienvenida y logo -->
+            <section class="col-md-6 text-center">
+                <img src="img/logo.png" alt="Pokemon Bank Logo" class="img-fluid mb-3" width="200">
+                <p class="mb-0">Accede a Pokémon Bank para gestionar tus monedas Pokémon de manera segura!</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
