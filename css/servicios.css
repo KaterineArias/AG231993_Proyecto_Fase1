@@ -72,8 +72,9 @@ label {
   color: #fff !important;
 }
 
-.text-success {
+#saldo-actual {
   color: #88BF5A !important;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {

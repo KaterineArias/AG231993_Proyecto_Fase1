@@ -21,7 +21,7 @@ body, html {
   padding: 2.8rem 1.6rem;
 }
 
-.welcome-text {
+.welcome-text2 {
   color: #3D7DCA;
   font-weight: 700;
 }
@@ -46,6 +46,11 @@ body, html {
   font-size: 1.08rem;
   border-radius: 12px;
   padding: 0.65rem 1.8rem;
+}
+
+#saldo-actual {
+  color: #88BF5A !important;
+  font-weight: bold;
 }
 
 .btn-secondary {

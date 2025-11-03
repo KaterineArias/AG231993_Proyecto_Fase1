@@ -21,9 +21,14 @@ body, html {
   padding: 2.8rem 1.6rem;
 }
 
-.welcome-text {
+.welcome-text3 {
   color: #3D7DCA;
   font-weight: 700;
+}
+
+#saldo-actual {
+  color: #88BF5A !important;
+  font-weight: bold;
 }
 
 .form-group label {
